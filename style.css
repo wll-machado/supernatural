@@ -1,0 +1,65 @@
+* {
+    color: #fff;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+}
+
+.navbar-dark {
+    background: rgba(0, 0, 0, 0.378);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.4px);
+    -webkit-backdrop-filter: blur(6.4px);
+
+    height: 4.375rem;
+
+}
+
+.navbar-brand,
+.awards {
+    font-family: "MedievalSharp", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    text-shadow: rgb(247, 147, 17) 1px 0 10px;
+}
+
+.cards-bg {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(2, 2, 68, 1) 35%, rgba(2, 28, 33, 1) 100%);
+
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    border: 1.2px solid rgba(96, 2, 2, 0.545) !important;
+    min-height: 360px !important;
+}
+
+.card-img-top {
+    width: 100px !important;
+    z-index: 10;
+}
+
+.list-group {
+    gap: 20px;
+}
+
+.list-group-item {
+
+    border-radius: 25px !important;
+    
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(3, 3, 107, 1) 38%) !important;
+}
+
+.list-group-item:hover {
+    
+background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(207, 66, 6, 0.56) 38%, rgba(213,194,9,1) 100%) !important;
+}
+
+.list-group-item:hover a {
+    color: #fff;
+}
